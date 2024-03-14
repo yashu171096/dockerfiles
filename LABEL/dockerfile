@@ -1,4 +1,4 @@
-FROM alamalinux
+FROM almalinux
 LABEL AUTHOR="SIVAKUMAR"\
       COURSE="DOCKER"\
       DURATION="25HRS"
