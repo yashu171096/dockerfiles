@@ -3,4 +3,4 @@ FROM almalinux:${version:-8}
 ARG GREETING="HI GOOD MORNING"
 ENV GREET="$GREETING"
 RUN echo "$VERSION"
-RUN echo "${GREETINGS}"
+RUN echo "${GREETING}"
